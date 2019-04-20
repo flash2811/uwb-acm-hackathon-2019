@@ -1,0 +1,46 @@
+<html>
+        <head>
+            <title> Write Review </title>
+            </head>
+            <body vlink = red>
+                <h1>Write Review</h1>
+                <p><a href="index.html">Click here to return to the homepage</a></p><br>
+                <fieldset>
+                <legend>Class Information:</legend><br>
+    
+                <form action="/action_page.php" method="post">
+                    Professor:<br>
+                    <input type = "text" name = "professor"><br>
+                    Quarter:<br>
+                    <input type = "text" name = "quarter"><br>
+                    Class:<br>
+                    <input type = "text" name = "class"><br><br>
+                    Course:<br>
+                    <select name="course">
+                            <option value="science">Science</option>
+                            <option value="technology">Technology</option>
+                            <option value="engineering">Engineering</option>
+                            <option value="math">Math</option>
+                          </select><br><br>
+                    Text:<br>
+                    <textarea>Write your review here</textarea><br><br>
+                    <input type = "submit" value = "Submit"><br>
+    
+                    <style>
+                        form{
+                            margin: 0 auto;
+                            width: 1500px;
+                            color:white
+                        }
+                        body{ 
+                            background-color:black;
+                            }
+                            h1{
+                                color:white;
+                            }
+                            legend{
+                                color:white;
+                            }
+                    </style>
+                </fieldset>
+                </form>
